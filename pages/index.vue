@@ -19,13 +19,19 @@
                 <button class="p-4 h-10 flex items-center rounded-3xl border-[#1c2331] border-2">Contato</button>
             </div>
             <div class="rounded-3xl md:m-1 overflow-hidden  col-span-1 row-span-5">
-                <img class="w-full h-full" src="https://photo-cdn2.icons8.com/vyVf2D299YKG9unr7OPmUoyszIkEOGHMuTovvmTfvrM/rs:fit:1612:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi8xZDEyOTFjYjEy/MzY0Y2EwOGUwNzgy/Yjk5ZjAyOGI3MC5q/cGc.jpg" alt="">
+                <img class="w-full h-full" src="https://photo-cdn2.icons8.com/YDl2ETzRkKrzg32m3lg7dl97rzt8723vUunWNDrv5Oc/rs:fit:1560:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi8zODg2ZTJjMDY3/YmI0Y2I0YjE5MzY4/YjFlNWVmNmIzYy5q/cGc.jpg" alt="">
             </div>
         </div>
         </div>
         <div v-bind:style="{left: x + 'px', top: y + 'px'}" class="absolute rounded-full w-5 h-5 backdrop-invert cursor-pointer"></div>
 
-        <div v-for="(bubble, index) in bubbles" :key="index" :style="{ left: bubble.x + 'px', top: bubble.y + 'px' }" class="absolute rounded-full w-20 h-20 backdrop-invert"></div>
+        <div v-for="(bubble, index) in bubbles" :key="index" :style="{ left: bubble.x + 'px', top: bubble.y + 'px' }" class="absolute rounded-full w-32 h-32 backdrop-invert"></div>
+
+        <section class="h-screen">
+            <div class="mx-2 mt-6 w-full h-full rounded-3xl bg-sky-500">
+                
+            </div>
+        </section>
 </template>
 <script>
 export default {
@@ -39,7 +45,7 @@ export default {
     mounted() {
 
           // Cria bolhas e adiciona posições aleatórias e velocidades
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 8; i++) {
       let bubble = {
         x: Math.floor(Math.random() * window.innerWidth),
         y: Math.floor(Math.random() * window.innerHeight),
