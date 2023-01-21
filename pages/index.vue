@@ -26,9 +26,6 @@
         <div v-bind:style="{left: x + 'px', top: y + 'px'}" class="absolute rounded-full w-5 h-5 backdrop-invert cursor-pointer"></div>
 
         <div v-for="(bubble, index) in bubbles" :key="index" :style="{ left: bubble.x + 'px', top: bubble.y + 'px' }" class="absolute rounded-full w-20 h-20 backdrop-invert"></div>
-        
-        <div class="h-screen">
-    </div>
 </template>
 <script>
 export default {
