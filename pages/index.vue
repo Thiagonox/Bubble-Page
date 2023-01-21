@@ -45,7 +45,7 @@ export default {
     mounted() {
 
           // Cria bolhas e adiciona posições aleatórias e velocidades
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 6; i++) {
       let bubble = {
         x: Math.floor(Math.random() * window.innerWidth),
         y: Math.floor(Math.random() * window.innerHeight),
