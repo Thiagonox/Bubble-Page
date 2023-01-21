@@ -15,8 +15,7 @@ module.exports = {
       },
     },
     backgroundImage: {
-      'bg': "url('https://photo-cdn2.icons8.com/eocfJ-BHCwZx5eAH-tquDKjstDV6OptIXIy0utgNWFM/rs:fit:1612:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi8yODY4OGViOWI0/NDg0ZDFkODkxYjQ1/ZjE0MmYzNWZlZi5q/cGc.jpg')",
-      'footer-texture': "url('/img/footer-texture.png')",
+      'bg': "url('https://photo-cdn2.icons8.com/r76K5jvMAw40bwJlrIlw8hIr-N1aT_ljWIchuaEpha8/rs:fit:1608:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi9iMWNmNTQyMWVk/Njk0ZWExYTM1ZGVl/YTc3NDRjYmM0ZC5q/cGc.jpg')",
     }
   },
   plugins: [],
