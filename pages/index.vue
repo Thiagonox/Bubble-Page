@@ -27,11 +27,7 @@
 
         <div v-for="(bubble, index) in bubbles" :key="index" :style="{ left: bubble.x + 'px', top: bubble.y + 'px' }" class="absolute rounded-full w-32 h-32 backdrop-invert"></div>
 
-        <section class="h-screen">
-            <div class="mx-2 mt-6 w-full h-full rounded-3xl bg-sky-500">
-                
-            </div>
-        </section>
+        
 </template>
 <script>
 export default {
