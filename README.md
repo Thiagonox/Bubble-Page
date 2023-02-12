@@ -1,42 +1,22 @@
-# Nuxt 3 Minimal Starter
+# Projeto de Landing Page com Nuxt e TailwindCSS
+Este é um projeto de Landing Page que está sendo desenvolvido utilizando o framework Nuxt e o framework de estilização TailwindCSS. Ainda está no início do desenvolvimento, mas já é possível captar o conceito e a proposta do projeto.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Funcionalidades
+Atualmente, o projeto ainda não possui todas as funcionalidades definidas. Porém, as seguintes tecnologias estão sendo utilizadas:
 
-## Setup
+Nuxt
+TailwindCSS
+Vue.js
 
-Make sure to install the dependencies:
+## Como acessar o projeto
+Você pode acessar a aplicação no seguinte endereço: https://bubblepage.netlify.app/
 
-```bash
-# yarn
-yarn install
+Se preferir, você também pode clonar o repositório e executar o projeto localmente em sua máquina. Para isso, siga os seguintes passos:
 
-# npm
-npm install
+Faça o download ou clone o repositório em sua máquina
+Instale as dependências do projeto com o comando npm install
+Execute o projeto com o comando npm run dev
+Pronto! Agora você já pode acessar a aplicação em seu navegador através do endereço http://localhost:3000.
 
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Limitações
+O projeto ainda não está 100% responsivo em todas as resoluções de tela. Tenha isso em mente ao testar o projeto em diferentes dispositivos.
