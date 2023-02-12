@@ -4,9 +4,9 @@ Este é um projeto de Landing Page que está sendo desenvolvido utilizando o fra
 ## Funcionalidades
 Atualmente, o projeto ainda não possui todas as funcionalidades definidas. Porém, as seguintes tecnologias estão sendo utilizadas:
 
-Nuxt
-TailwindCSS
-Vue.js
+* Nuxt
+* TailwindCSS
+* Vue.js
 
 ## Como acessar o projeto
 Você pode acessar a aplicação no seguinte endereço: https://bubblepage.netlify.app/
